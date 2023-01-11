@@ -5,6 +5,7 @@ import 'small_text.dart';
 class IconAndTextWidget extends StatelessWidget {
   final IconData icon;
   final String text;
+  final Color color;
 
   final Color iconColor;
   const IconAndTextWidget({
@@ -12,6 +13,7 @@ class IconAndTextWidget extends StatelessWidget {
     required this.icon,
     required this.text,
     required this.iconColor,
+    required this.color,
   }) : super(key: key);
 
   @override
